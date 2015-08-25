@@ -12,7 +12,7 @@ class IndexAction extends BaseAction {
         $this->display("/index");
     }
     /**
-     * 导出
+     * 导入
      */
     public function import(){
         $tableName="excel";
